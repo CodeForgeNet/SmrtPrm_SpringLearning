@@ -1,4 +1,7 @@
 //https\://aws-toolkit-language-servers.amazonaws.com/codewhisperer/0/manifest.json="582f22082f3f777254a3c3caf085dbe2"
+IDC_PARAMS=bnVsbA\=\=
+LOGIN_TYPE=BUILDER_ID
+SSO_TOKEN_IN=__RESERVED__AwsBuilderId
 clientId=6a352cc7-0a5b-43b0-98e3-6e43159e493b
 eclipse.preferences.version=1
 qEclipseFirstLoad=true
