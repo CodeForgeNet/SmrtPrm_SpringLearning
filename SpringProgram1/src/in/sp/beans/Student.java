@@ -27,5 +27,11 @@ public class Student {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public void display() {
+		System.out.println("Roll_no : "+rollno);
+		System.out.println("Name : "+name);
+		System.out.println("Email : "+email);
+	}
 
 }
