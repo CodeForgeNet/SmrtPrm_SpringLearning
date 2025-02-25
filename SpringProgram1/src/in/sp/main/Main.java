@@ -22,31 +22,17 @@ public class Main {
 		
 //		ApplicationContext is interface so we can't create object of that . so for that there is one implemented class that is ClassPathXmlApplicationContext(through this we can  load the resource file or spring configuration file).
 		
-//		String config_loc = "/in/sp/resources/applicationContext.xml";
-//		ApplicationContext context = new ClassPathXmlApplicationContext(config_loc); //-> this line start the container.
+		String config_loc = "/in/sp/resources/applicationContext.xml";
+		ApplicationContext context = new ClassPathXmlApplicationContext(config_loc); //-> this line start the container.
 		
 		
-//		Student std = (Student) context.getBean("stdId");
-//		std.display();
+		Student std = (Student) context.getBean("stdId");
+		std.display();
 		
+		Student std2 = (Student) context.getBean("stdId2");
+		std2.display();
+				
 		
-		
-//		2nd Way.
-//		Student std = (Student) new ClassPathXmlApplicationContext("applicationContext.xml").getBean("stdId");
-//		System.out.println(std);
-		
-		
-		
-		 try {
-		        String config_loc = "/in/sp/resources/applicationContext.xml";
-		        ApplicationContext context = new ClassPathXmlApplicationContext(config_loc);
-		        
-		        Student std = (Student) context.getBean("stdId");
-		        std.display();
-		    } catch (Exception e) {
-		        System.out.println("Error: " + e.getMessage());
-		        e.printStackTrace();
-		    }
 		
 		
 	}
