@@ -10,6 +10,7 @@
     	<property name="name" value="Karan" />
     	<property name="email" value="karan@gmail.com" />
     </bean>
+    
     <bean class = "in.sp.beans.Student" id="stdId2" > <!-- Here fully qualified class name -->
     	<property name="rollno" value="102" />
     	<property name="name" value="Singh" />
