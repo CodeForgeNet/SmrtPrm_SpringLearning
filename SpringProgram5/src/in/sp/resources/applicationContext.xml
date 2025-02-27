@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean class="in.sp.beans.Address" id="addrId" >
+    		<property name="houseno" value="123"/>
+    		<property name="city" value="Noida"/>
+    		<property name="pincode" value="201301"/>
+    </bean>
+    
+    <bean class="in.sp.beans.Student" id="stdId">
+    		<property name="rollno" value="101" />
+    		<property name="name" value="Zoro" />
+    		<property name="address" ref="addrId" /><!-- Here we have to inject address object. we use ref attribute instead of value attribute. -->
+    </bean>
+
+</beans>
