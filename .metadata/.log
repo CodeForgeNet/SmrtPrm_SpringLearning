@@ -3694,3 +3694,21 @@ For more information, check the blog post at https://a.co/cUPnyil
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-02-27 17:04:28.826
 !MESSAGE [Info]	[2025-02-27T11:34:28.825Z] Configuration updated to share Amazon Q content with AWS
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-27 18:05:59.903
+!MESSAGE [Info]	[2025-02-27T12:35:59.887Z] Retrieving SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-27 18:05:59.906
+!MESSAGE [Info]	[2025-02-27T12:35:59.885Z] SSO token unwatched and will not be auto-refreshed.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-27 18:05:59.930
+!MESSAGE [Info]	[2025-02-27T12:35:59.907Z] Returning client registration.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-27 18:05:59.931
+!MESSAGE [Info]	[2025-02-27T12:35:59.912Z] Calling SSO OIDC to refresh SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-27 18:05:59.942
+!MESSAGE [Info]	[2025-02-27T12:35:59.941Z] Error when attempting to refresh SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-27 18:05:59.942
+!MESSAGE [Info]	[2025-02-27T12:35:59.942Z] SSO token does not exist, was invalidated, or session has expired and will not be auto-refreshed.
