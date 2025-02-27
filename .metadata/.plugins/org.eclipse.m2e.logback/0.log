@@ -16,3 +16,9 @@
 2025-02-12 15:54:50,728 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6d579d43{STARTING}[12.0.12,sto=0] @13398970ms
 2025-02-12 18:35:30,217 [Framework stop - Equinox Container: 60a0bded-e5de-4252-ab8d-0a2a0c2f2df1] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6d579d43{STOPPING}[12.0.12,sto=0]
 2025-02-12 18:35:30,225 [Framework stop - Equinox Container: 60a0bded-e5de-4252-ab8d-0a2a0c2f2df1] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6114791a{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2025-02-27 11:42:40,400 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 21.0.5+11-LTS
+2025-02-27 11:42:40,414 [main] INFO  o.e.j.server.handler.ContextHandler - Started oejsh.ContextHandler@5885f735{ROOT,/,b=null,a=AVAILABLE,vh=[127.0.0.1],h=oejsh.ResourceHandler@49e4e185{STARTED}}
+2025-02-27 11:42:40,420 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@646cba18{HTTP/1.1, (http/1.1)}{0.0.0.0:57300}
+2025-02-27 11:42:40,484 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@73b6995e{STARTING}[12.0.12,sto=0] @2124889ms
+2025-02-27 11:52:26,528 [Framework stop - Equinox Container: 8a8d825d-e1b8-4217-93f2-c997dee59572] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@73b6995e{STOPPING}[12.0.12,sto=0]
+2025-02-27 11:52:26,540 [Framework stop - Equinox Container: 8a8d825d-e1b8-4217-93f2-c997dee59572] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@646cba18{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
