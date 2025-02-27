@@ -16,7 +16,16 @@ public class Main {
 		
 		// OR 
 		
+//		Student std = context.getBean(Student.class);
+//		std.display();
 		
+		
+//		After changing method name using Bean annotation 
+		Student std = (Student) context.getBean("stdObj");
+		std.display();
+		System.out.println("----------------");
+		Student std2 = (Student) context.getBean("stdObj2");
+		std2.display();
 		
 	}
 }

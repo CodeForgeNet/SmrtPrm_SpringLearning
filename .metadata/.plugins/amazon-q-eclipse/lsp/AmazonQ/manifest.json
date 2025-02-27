@@ -5,6 +5,165 @@
   "isManifestDeprecated": false,
   "versions": [
     {
+      "serverVersion": "3.1.2",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.37"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.27"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.37"
+        },
+        {
+          "name": "types",
+          "version": "0.1.1"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/qserver/win-x64/servers.zip",
+              "hashes": [
+                "sha384:a829e6c558a5cdc42f15646fad3a9c1ff79c4c339fbbf9817e64e25abf4213fa7969d95362ec37ebfb8ad94d607aa217"
+              ],
+              "bytes": 28087523
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/clients.zip",
+              "hashes": [
+                "sha384:3c30b4057a642c1b17810d9d09847bf26b43603aa8975b7194adc3a0bb593e5b6f32dc5d9cc27e481d4a759e73ed9722"
+              ],
+              "bytes": 1363394
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/qserver/win-x64/servers.zip",
+              "hashes": [
+                "sha384:a829e6c558a5cdc42f15646fad3a9c1ff79c4c339fbbf9817e64e25abf4213fa7969d95362ec37ebfb8ad94d607aa217"
+              ],
+              "bytes": 28087523
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/clients.zip",
+              "hashes": [
+                "sha384:3c30b4057a642c1b17810d9d09847bf26b43603aa8975b7194adc3a0bb593e5b6f32dc5d9cc27e481d4a759e73ed9722"
+              ],
+              "bytes": 1363394
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/qserver/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:494a9c08a4f951f7d602aa4991855b63aafc577c12a5495618befd3b7e11eb905a28a252f1a9f6f8d401cb68bf7a19f9"
+              ],
+              "bytes": 34708581
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/clients.zip",
+              "hashes": [
+                "sha384:3c30b4057a642c1b17810d9d09847bf26b43603aa8975b7194adc3a0bb593e5b6f32dc5d9cc27e481d4a759e73ed9722"
+              ],
+              "bytes": 1363394
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/qserver/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:a014a52f0693fbbbef57cbccd23b2e984f261fa391d95e631574fa691edc20bd70b6f746a60a69a53b8d055613650377"
+              ],
+              "bytes": 34582769
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/clients.zip",
+              "hashes": [
+                "sha384:3c30b4057a642c1b17810d9d09847bf26b43603aa8975b7194adc3a0bb593e5b6f32dc5d9cc27e481d4a759e73ed9722"
+              ],
+              "bytes": 1363394
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/qserver/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:553138fc249ea8fb86a45be21c65a7084e4005a82045e8ea56f6f79d6798dac5831a712c2dbf4b819f836bf5ac59084d"
+              ],
+              "bytes": 31336083
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/clients.zip",
+              "hashes": [
+                "sha384:3c30b4057a642c1b17810d9d09847bf26b43603aa8975b7194adc3a0bb593e5b6f32dc5d9cc27e481d4a759e73ed9722"
+              ],
+              "bytes": 1363394
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/qserver/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:9d17993f7d05e0d5b9fb752834e1399e5d76fd1f4eb90e5c4a82f044d8b93b7e47d5b9f3423c01be17fd0d0b2dc1d4c5"
+              ],
+              "bytes": 30116794
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/044d86e8-3140-4451-a0cd-dde5d87bb708/clients.zip",
+              "hashes": [
+                "sha384:3c30b4057a642c1b17810d9d09847bf26b43603aa8975b7194adc3a0bb593e5b6f32dc5d9cc27e481d4a759e73ed9722"
+              ],
+              "bytes": 1363394
+            }
+          ]
+        }
+      ]
+    },
+    {
       "serverVersion": "3.1.1",
       "isDelisted": false,
       "runtime": {
