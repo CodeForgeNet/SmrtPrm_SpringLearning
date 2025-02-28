@@ -5,7 +5,11 @@ public class Address {
 	private String city;
 	private int pincode;
 	
-	
+	public Address(int houseno, String city, int pincode) {
+		this.houseno=houseno;
+		this.city=city;
+		this.pincode=pincode;
+	}
 	
 	@Override
 	public String toString() {

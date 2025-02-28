@@ -1,5 +1,7 @@
 package in.sp.main;
 
+// This project is CONSTRUCTOR DI using JAVA File configuration.
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

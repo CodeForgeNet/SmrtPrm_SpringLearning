@@ -11,10 +11,7 @@ public class SpringConfigFile {
 	
 	@Bean
 	public Address createAddrObj() {
-		Address addr = new Address();
-		addr.setHouseno(100);
-		addr.setCity("Noida");
-		addr.setPincode(201301);
+		Address addr = new Address(200,"Gurgaon",20202);
 		
 		return addr;
 	}
@@ -22,10 +19,7 @@ public class SpringConfigFile {
 	
 	@Bean
 	public Student createStudObj() {
-		Student std = new Student();
-		std.setRollno(23);
-		std.setName("Brook");
-		std.setAddress(createAddrObj());
+		Student std = new Student(30,"Kaido",createAddrObj());
 		
 		return std;
 	}
