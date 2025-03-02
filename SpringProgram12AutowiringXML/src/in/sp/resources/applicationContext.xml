@@ -4,18 +4,68 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- bean definitions here -->
+    <!-- Autowire - byName -->
     
-    <bean class="in.sp.beans.Address" id="addrId" >
+    <!-- <bean class="in.sp.beans.Address" id="address" > if using autowire(byName) then we provide same name of the attribute in Student class i.e; address. (for byName property name same as bean id)(byName internally use setter method)
     		<property name="houseno" value="345" />
     		<property name="city" value="Patna" />
     		<property name="pincode" value="201301" />
     </bean>
     
-    <bean class="in.sp.beans.Student" id="stdId" >
+    <bean class="in.sp.beans.Student" id="stdId" autowire="byName" >
     		<property name="rollno" value="34" />
     		<property name="name" value="karan" />
-    		<property name="address" ref="addrId" />
+    </bean> -->
+    
+    
+    
+    
+    
+    
+    
+    <!-- Autowire - byType -->
+    
+    <!-- <bean class="in.sp.beans.Address" id="addrId1" autowire-candidate="false">
+    		<property name="houseno" value="345" />
+    		<property name="city" value="Patna" />
+    		<property name="pincode" value="201301" />
     </bean>
+    <bean class="in.sp.beans.Address" id="addrId2" autowire-candidate="true" > autoWireCandidate is used when more than 1 bean object is present. 
+    		<property name="houseno" value="40" />
+    		<property name="city" value="Noida" />
+    		<property name="pincode" value="202302" />
+    </bean>
+    
+    <bean class="in.sp.beans.Student" id="stdId" autowire="byType" > It matches data type,it checks that is there any bean created of address type or not. If yes then it achieve autowiring
+    		<property name="rollno" value="34" />
+    		<property name="name" value="karan" />
+    </bean> -->
+    
+    
+    
+    
+    <!-- Autowire - byConstructor -->
+    
+    
+    <bean class="in.sp.beans.Address" id="addr1" autowire-candidate="false" >
+    		<constructor-arg value="100" />
+    		<constructor-arg value="Kanpur" />
+    		<constructor-arg value="231431" />
+    </bean>
+    
+    <bean class="in.sp.beans.Address" id="addr2" autowire-candidate="true" >
+    		<constructor-arg value="200" />
+    		<constructor-arg value="Lucknow" />
+    		<constructor-arg value="123321" />
+    </bean>
+    
+    <bean class="in.sp.beans.Student" id="stdId" autowire="constructor" > 
+    		<constructor-arg value="12" index="0"/>
+    		<constructor-arg value="Honey" index="1"/>
+    </bean>
+    
+    
+    
+    
 
 </beans>
