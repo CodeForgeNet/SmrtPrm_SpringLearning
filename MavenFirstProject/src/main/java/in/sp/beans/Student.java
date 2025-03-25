@@ -26,5 +26,11 @@ public class Student {
 	}
 	
 	
+	public void display() {
+		System.out.println("Name : "+name);
+		System.out.println("Rollno : "+rollno);
+		System.out.println("Marks : "+marks);
+	}
+	
 
 }
