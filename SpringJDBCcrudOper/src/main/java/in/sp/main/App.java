@@ -18,10 +18,10 @@ public class App {
 		
 //		INSERT OPERATION
 		
-//		int std_roll = 102;
-//		String std_name="Arjun";
-//		float std_marks = 95.3f;
-		
+//		int std_roll = 103;
+//		String std_name="Krishna";
+//		float std_marks = 86.2f;
+//		
 //		String insert_sql_query = "INSERT INTO student values(?,?,?)";
 //		int count = jdbcTemp.update(insert_sql_query,std_roll,std_name,std_marks);
 //		
@@ -53,6 +53,23 @@ public class App {
 		
 //		DELETE OPERATION 
 		
+//		 int roll_no = 102;
+//		 
+//		 String delete_query = "DELETE FROM STUDENT WHERE std_roll=?";
+//		 int count = jdbcTemp.update(delete_query,roll_no);
+//		if(count>0) {
+//			System.out.println("DELETE SUCCESSFUL");
+//		}else {			
+//			System.out.println("DELETE SUCCESSFUL");
+//		}
+		
+		
+		
+		
+//		SELECT OPERATION
+		
+		String select_query = "SELECT * FROM student";
+		jdbcTemp.query(select_query, null);
 		
 		
 		
