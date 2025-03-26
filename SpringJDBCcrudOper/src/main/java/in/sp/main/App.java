@@ -1,9 +1,13 @@
 package in.sp.main;
 
+import java.util.List;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 
+import in.sp.beans.Student;
+import in.sp.mappers.StudentRowMapper;
 import in.sp.resources.SpringConfigFile;
 
 public class App {
@@ -66,11 +70,41 @@ public class App {
 		
 		
 		
-//		SELECT OPERATION
+//		SELECT OPERATION (ALL)
 		
-		String select_query = "SELECT * FROM student";
-		jdbcTemp.query(select_query, null);
+//		String select_query = "SELECT * FROM student";
+//		List<Student> std_list = jdbcTemp.query(select_query, new StudentRowMapper());
+//		for(Student std : std_list) {
+//			System.out.println("Rollno : " +std.getRoll());
+//			System.out.println("Name : "+std.getName());
+//			System.out.println("Marks : "+std.getMarks());
+//			System.out.println("--------------");
+//		}
+
 		
+		
+//		SELECT OPERATION (SINGLE) - 1
+		
+//		int rollno = 102;
+//		String select_query = "SELECT * FROM student where std_roll=?";
+//		List<Student> std_list = jdbcTemp.query(select_query, new StudentRowMapper(),rollno);
+//		for(Student std : std_list) {
+//			System.out.println("Rollno : " +std.getRoll());
+//			System.out.println("Name : "+std.getName());
+//			System.out.println("Marks : "+std.getMarks());
+//			System.out.println("--------------");
+//		}
+		
+		
+		
+//		SELECT OPERATION (SINGLE) - 2
+		
+		int rollno = 103;
+		String select_query = "SELECT * FROM student where std_roll=?";
+		Student std = jdbcTemp.queryForObject(select_query, new StudentRowMapper(),rollno);
+		System.out.println("Rollno : " +std.getRoll());
+		System.out.println("Name : "+std.getName());
+		System.out.println("Marks : "+std.getMarks());
 		
 		
 	}

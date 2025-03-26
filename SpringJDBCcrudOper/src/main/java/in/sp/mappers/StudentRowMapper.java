@@ -14,7 +14,11 @@ public class StudentRowMapper  implements RowMapper<Student> {
 		
 		Student std = new Student();
 		
-		return null;
+		std.setRoll(rs.getInt("std_roll"));
+		std.setName(rs.getString("std_name"));
+		std.setMarks(rs.getFloat("std_marks"));
+		
+		return std;
 	}
 	
 }

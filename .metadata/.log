@@ -7959,3 +7959,149 @@ For more information, check the blog post at https://a.co/cUPnyil
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-03-26 23:13:14.374
 !MESSAGE [Info]	[2025-03-26T17:43:14.374Z] Configuration updated to share Amazon Q content with AWS
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-26 23:40:27.306
+!MESSAGE [Info]	[2025-03-26T18:10:27.301Z] Adding tab: 3jdwix
+
+!ENTRY amazon-q-eclipse 4 0 2025-03-26 23:40:51.844
+!MESSAGE Unexpected error when determining open file path
+!STACK 0
+software.aws.toolkits.eclipse.amazonq.exception.AmazonQPluginException: Unexpected editor input type: org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput
+	at software.aws.toolkits.eclipse.amazonq.util.QEclipseEditorUtils.getOpenFilePath(QEclipseEditorUtils.java:147)
+	at software.aws.toolkits.eclipse.amazonq.util.QEclipseEditorUtils.getOpenFilePath(QEclipseEditorUtils.java:138)
+	at software.aws.toolkits.eclipse.amazonq.util.QEclipseEditorUtils.getOpenFileUri(QEclipseEditorUtils.java:114)
+	at software.aws.toolkits.eclipse.amazonq.chat.ChatCommunicationManager$1.run(ChatCommunicationManager.java:162)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-26 23:40:51.881
+!MESSAGE [Info]	[2025-03-26T18:10:51.856Z] Received chat prompt
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-26 23:40:51.881
+!MESSAGE [Info]	[2025-03-26T18:10:51.861Z] Request for conversation id: New conversation
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-26 23:40:54.444
+!MESSAGE [Info]	[2025-03-26T18:10:54.436Z] Response for conversation id: New conversation {"httpStatusCode":200,"requestId":"5fe9710c-79b7-4834-aa48-fbcfd12ab229","attempts":1,"totalRetryDelay":0}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-26 23:41:08.696
+!MESSAGE [Info]	[2025-03-26T18:11:08.674Z] Session conversation id: 371db4cb-64b1-470c-a956-0ad42b4f5352
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:37.138
+!MESSAGE [Info]	[2025-03-26T18:38:37.119Z] Retrieving SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:37.140
+!MESSAGE [Info]	[2025-03-26T18:38:37.116Z] SSO token unwatched and will not be auto-refreshed.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:37.165
+!MESSAGE [Info]	[2025-03-26T18:38:37.142Z] Calling SSO OIDC to refresh SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:37.165
+!MESSAGE [Info]	[2025-03-26T18:38:37.138Z] Returning client registration.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.202
+!MESSAGE [Info]	[2025-03-26T18:38:39.201Z] Storing SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.203
+!MESSAGE [Info]	[2025-03-26T18:38:39.201Z] Caching refreshed SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.204
+!MESSAGE [Info]	[2025-03-26T18:38:39.203Z] Notifying client SSO token was refreshed.
+
+!ENTRY amazon-q-eclipse 1 0 2025-03-27 00:08:39.205
+!MESSAGE Processing REFRESHEDssoTokenChanged notification...
+
+!ENTRY amazon-q-eclipse 1 0 2025-03-27 00:08:39.205
+!MESSAGE Attempting to re-authenticate...
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.207
+!MESSAGE [Info]	[2025-03-26T18:38:39.203Z] Auto-refreshing SSO token in 3321142.9319892754 milliseconds.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.209
+!MESSAGE [Info]	[2025-03-26T18:38:39.207Z] Retrieving SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.210
+!MESSAGE [Info]	[2025-03-26T18:38:39.209Z] SSO token before refresh window.  Returning current SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.211
+!MESSAGE [Info]	[2025-03-26T18:38:39.209Z] Retrieving SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.211
+!MESSAGE [Info]	[2025-03-26T18:38:39.209Z] SSO token unwatched and will not be auto-refreshed.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.213
+!MESSAGE [Info]	[2025-03-26T18:38:39.211Z] SSO token before refresh window.  Returning current SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.213
+!MESSAGE [Info]	[2025-03-26T18:38:39.211Z] Successfully retrieved existing or newly authenticated SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.214
+!MESSAGE [Info]	[2025-03-26T18:38:39.211Z] Auto-refreshing SSO token in 3319135.1194847566 milliseconds.
+
+!ENTRY amazon-q-eclipse 1 0 2025-03-27 00:08:39.225
+!MESSAGE Successfully logged in
+
+!ENTRY amazon-q-eclipse 1 0 2025-03-27 00:08:39.225
+!MESSAGE Triggering configuration pull from Amazon Q LSP server
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.226
+!MESSAGE [Info]	Runtime: Decoding encrypted credentials token
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.226
+!MESSAGE [Info]	Decoding JWT token
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.227
+!MESSAGE [Info]	Runtime: Successfully saved bearer credentials
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.227
+!MESSAGE [Info]	Runtime: Connection metadata updated
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.228
+!MESSAGE [Info]	[2025-03-26T18:38:39.227Z] Chat configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.228
+!MESSAGE [Info]	[2025-03-26T18:38:39.228Z] Inline completion configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.228
+!MESSAGE [Info]	[2025-03-26T18:38:39.228Z] Configuration updated to include suggestions with code references
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-27 00:08:39.228
+!MESSAGE [Info]	[2025-03-26T18:38:39.228Z] Configuration updated to share Amazon Q content with AWS
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-27 00:13:28.943
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-27 00:13:28.943
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-27 00:13:28.943
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-27 00:13:28.943
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-27 00:13:28.945
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-27 00:13:28.946
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
