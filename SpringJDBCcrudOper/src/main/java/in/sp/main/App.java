@@ -8,8 +8,22 @@ import in.sp.resources.SpringConfigFile;
 
 public class App {
 	public static void main(String[] args) {
+		
+		int std_rollno = 101;
+		String std_name="Karan";
+		float std_marks = 97.5f;
+		
 		ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfigFile.class);
 		
-		context.getBean(JdbcTemplate.class);
+		JdbcTemplate jdbcTemp = context.getBean(JdbcTemplate.class);
+		
+		String insert_sql_query = "INSERT INTO student values(?,?,?)";
+		int count = jdbcTemp.update(insert_sql_query,std_rollno,std_name,std_marks);
+		
+		if(count>0) {
+			System.out.println("insertion successfull");
+		}else {
+			System.out.println("insertion failed"); 
+		}
 	}
 }
