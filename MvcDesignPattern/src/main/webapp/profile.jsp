@@ -13,6 +13,7 @@
 		User user = (User)session.getAttribute("session_user");
 	%>
 
+	<!-- <h1>Welcome</h1> -->
 	<h1>Welcome</h1>
 	
 	<h3>Name : </h3>
