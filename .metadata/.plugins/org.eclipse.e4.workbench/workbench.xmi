@@ -10,6 +10,7 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1739339343748"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_D_zRsukFEe-59I6YFBy-MA" selectedElement="_D_zRs-kFEe-59I6YFBy-MA" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_D_zRs-kFEe-59I6YFBy-MA" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_EDNyEekFEe-59I6YFBy-MA">
         <children xsi:type="advanced:Perspective" xmi:id="_EDNyEekFEe-59I6YFBy-MA" elementId="org.eclipse.jst.j2ee.J2EEPerspective" selectedElement="_EDNyEukFEe-59I6YFBy-MA" label="Java EE" iconURI="platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif">
@@ -553,7 +554,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_09BMgAyGEfC_oMkpuT7dVw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="profile.jsp" iconURI="platform:/plugin/org.eclipse.jst.jsp.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;profile.jsp&quot; partName=&quot;profile.jsp&quot; title=&quot;profile.jsp&quot; tooltip=&quot;MvcDesignPattern/src/main/webapp/profile.jsp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MvcDesignPattern/src/main/webapp/profile.jsp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;248&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;profile.jsp&quot; partName=&quot;profile.jsp&quot; title=&quot;profile.jsp&quot; tooltip=&quot;MvcDesignPattern/src/main/webapp/profile.jsp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MvcDesignPattern/src/main/webapp/profile.jsp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;342&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jst.jsp.core.jspsource.source</tags>
@@ -865,7 +866,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EAf1QukFEe-59I6YFBy-MA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_SSmqcAxbEfC_oMkpuT7dVw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_DtqZpOkFEe-59I6YFBy-MA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4cw7sBcMEfCPlq4it43FQw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_DtqZpOkFEe-59I6YFBy-MA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EAf1Q-kFEe-59I6YFBy-MA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -873,8 +874,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EAgcUOkFEe-59I6YFBy-MA" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_SSnRggxbEfC_oMkpuT7dVw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="_DtokR-kFEe-59I6YFBy-MA"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_SSnRgwxbEfC_oMkpuT7dVw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_DtpxyukFEe-59I6YFBy-MA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4cw7thcMEfCPlq4it43FQw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="_DtokR-kFEe-59I6YFBy-MA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4cxiwBcMEfCPlq4it43FQw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_DtpxyukFEe-59I6YFBy-MA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EAgcUekFEe-59I6YFBy-MA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -907,7 +908,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EAgcVekFEe-59I6YFBy-MA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_SSn4lQxbEfC_oMkpuT7dVw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_DtqZQekFEe-59I6YFBy-MA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4cxixhcMEfCPlq4it43FQw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_DtqZQekFEe-59I6YFBy-MA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EAgcVukFEe-59I6YFBy-MA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1811,7 +1812,7 @@
     <bindings xmi:id="_Dt63sOkFEe-59I6YFBy-MA" keySequence="ALT+CR" command="_Dtpx9OkFEe-59I6YFBy-MA"/>
   </bindingTables>
   <bindingTables xmi:id="_DuL9RukFEe-59I6YFBy-MA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_DtYsDOkFEe-59I6YFBy-MA">
-    <bindings xmi:id="_R-Nu0AxbEfC_oMkpuT7dVw" keySequence="M1+W" command="_DuL9ROkFEe-59I6YFBy-MA"/>
+    <bindings xmi:id="_4LhasRcMEfCPlq4it43FQw" keySequence="M1+W" command="_DuL9ROkFEe-59I6YFBy-MA"/>
   </bindingTables>
   <bindingTables xmi:id="_EDGdUekFEe-59I6YFBy-MA" bindingContext="_EDGdUOkFEe-59I6YFBy-MA"/>
   <bindingTables xmi:id="_EDGdU-kFEe-59I6YFBy-MA" bindingContext="_EDGdUukFEe-59I6YFBy-MA"/>
