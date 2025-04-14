@@ -1,4 +1,3 @@
-I have the following steps to build the `SmrtPrm_SpringLearning/MavenFirstProject` project using Maven and Spring;
 
 Steps to Develop `SmrtPrm_SpringLearning/MavenFirstProject`:
 
