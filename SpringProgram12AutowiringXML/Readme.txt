@@ -28,18 +28,12 @@ The **SpringProgram12AutowiringXML** project serves to demonstrate the concept o
 
 This project is beneficial for developers looking to grasp the fundamentals of dependency injection and the practical application of autowiring in Spring Framework projects.
 
-For further reading on the benefits of autowiring and dependency injection in Spring, you can refer to these sources:
-- [How To Simplify Dependency Injection with @Autowired](https://springframework.guru/autowiring-in-spring/) [1]
-- [Spring Autowiring - It's a kind of magic - Part 1](https://blog.scottlogic.com/2020/02/25/spring-autowiring-its-a-kind-of-magic.html) [2]
-- [Spring @Autowired Annotation](https://www.digitalocean.com/community/tutorials/spring-autowired-annotation) [3]
-
- 
 
 
 
 
 
-* Project Details
+* Project Developing Details
 
 -> Using build path we add jar file using library that i created to put all jar file together.
 1. Create Bean class of name Address in package in.sp.beans
