@@ -111,11 +111,17 @@ http://localhost:8080/hello
 ### Conclusion
 You set up a basic Spring with maven application. You can add more features such as database integration, security or even start implementing restful services. Tell me if you have something specific in mind!
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d8857db (Update files)
 
 
 ** Project Developing Details **
 
 
 
+<<<<<<< HEAD
+>>>>>>> d8857db (Update files)
+=======
 >>>>>>> d8857db (Update files)
