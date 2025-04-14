@@ -14951,3 +14951,84 @@ For more information, check the blog post at https://a.co/cUPnyil
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-14 12:21:35.653
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:43.992
+!MESSAGE [Info]	[2025-04-14T07:33:43.950Z] Retrieving SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:43.994
+!MESSAGE [Info]	[2025-04-14T07:33:43.941Z] SSO token unwatched and will not be auto-refreshed.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:44.025
+!MESSAGE [Info]	[2025-04-14T07:33:44.019Z] Calling SSO OIDC to refresh SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:44.025
+!MESSAGE [Info]	[2025-04-14T07:33:43.993Z] Returning client registration.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.101
+!MESSAGE [Info]	[2025-04-14T07:33:46.098Z] Caching refreshed SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.101
+!MESSAGE [Info]	[2025-04-14T07:33:46.099Z] Storing SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.106
+!MESSAGE [Info]	[2025-04-14T07:33:46.103Z] Notifying client SSO token was refreshed.
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-14 13:03:46.126
+!MESSAGE Processing REFRESHEDssoTokenChanged notification...
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-14 13:03:46.126
+!MESSAGE Attempting to re-authenticate...
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.128
+!MESSAGE [Info]	[2025-04-14T07:33:46.104Z] Auto-refreshing SSO token in 3321207.947034179 milliseconds.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.129
+!MESSAGE [Info]	[2025-04-14T07:33:46.128Z] Retrieving SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.129
+!MESSAGE [Info]	[2025-04-14T07:33:46.129Z] SSO token before refresh window.  Returning current SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.129
+!MESSAGE [Info]	[2025-04-14T07:33:46.129Z] SSO token unwatched and will not be auto-refreshed.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.130
+!MESSAGE [Info]	[2025-04-14T07:33:46.129Z] Retrieving SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.130
+!MESSAGE [Info]	[2025-04-14T07:33:46.129Z] SSO token before refresh window.  Returning current SSO token.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.130
+!MESSAGE [Info]	[2025-04-14T07:33:46.129Z] Auto-refreshing SSO token in 3318495.0885946057 milliseconds.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.131
+!MESSAGE [Info]	[2025-04-14T07:33:46.129Z] Successfully retrieved existing or newly authenticated SSO token.
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-14 13:03:46.149
+!MESSAGE Successfully logged in
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-14 13:03:46.149
+!MESSAGE Triggering configuration pull from Amazon Q LSP server
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.149
+!MESSAGE [Info]	Runtime: Decoding encrypted credentials token
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.149
+!MESSAGE [Info]	Decoding JWT token
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.150
+!MESSAGE [Info]	Runtime: Successfully saved bearer credentials
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.150
+!MESSAGE [Info]	Runtime: Connection metadata updated
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.150
+!MESSAGE [Info]	[2025-04-14T07:33:46.150Z] Chat configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.150
+!MESSAGE [Info]	[2025-04-14T07:33:46.150Z] Inline completion configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.151
+!MESSAGE [Info]	[2025-04-14T07:33:46.151Z] Configuration updated to include suggestions with code references
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-14 13:03:46.151
+!MESSAGE [Info]	[2025-04-14T07:33:46.151Z] Configuration updated to share Amazon Q content with AWS
