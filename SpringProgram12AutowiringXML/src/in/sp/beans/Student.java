@@ -1,5 +1,7 @@
 package in.sp.beans;
 
+// (2)
+
 public class Student {
 	private int rollno;
 	private String name;
@@ -38,3 +40,4 @@ public class Student {
 		System.out.println("Address : "+address);
 	}
 }
+// (/2)

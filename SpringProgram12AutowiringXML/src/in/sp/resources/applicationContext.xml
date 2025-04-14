@@ -1,29 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> <!-- (3) -->
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Autowire - byName -->
+<!-- (/3) -->
+
+
+    <!-- (4)  Autowire - byName -->
     
-    <!-- <bean class="in.sp.beans.Address" id="address" > if using autowire(byName) then we provide same name of the attribute in Student class i.e; address. (for byName property name same as bean id)(byName internally use setter method)
+    <!-- <bean class="in.sp.beans.Address" id="address" >  (4.2)if using autowire(byName) then we provide same name of the attribute in Student class i.e; address. (for byName property name same as bean id)(byName internally use setter method)(/4.2)
     		<property name="houseno" value="345" />
     		<property name="city" value="Patna" />
     		<property name="pincode" value="201301" />
     </bean>
     
+    (4.1)
     <bean class="in.sp.beans.Student" id="stdId" autowire="byName" >
     		<property name="rollno" value="34" />
     		<property name="name" value="karan" />
     </bean> -->
+    <!-- (/4.1) -->
+    <!-- (/4) -->
     
     
     
     
     
     
-    
-    <!-- Autowire - byType -->
+    <!--(6) Autowire - byType -->
     
     <!-- <bean class="in.sp.beans.Address" id="addrId1" autowire-candidate="false">
     		<property name="houseno" value="345" />
@@ -36,11 +41,11 @@
     		<property name="pincode" value="202302" />
     </bean>
     
-    <bean class="in.sp.beans.Student" id="stdId" autowire="byType" > It matches data type,it checks that is there any bean created of address type or not. If yes then it achieve autowiring
+    <bean class="in.sp.beans.Student" id="stdId" autowire="byType" > (6.2)It matches data type,it checks that is there any bean created of address type or not. If yes then it achieve autowiring(/6.2)
     		<property name="rollno" value="34" />
     		<property name="name" value="karan" />
     </bean> -->
-    
+    <!-- (/6) -->
     
     
     
