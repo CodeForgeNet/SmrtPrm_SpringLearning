@@ -1,4 +1,4 @@
-** Summary **
+* Summary *
 
 The article discusses the SpringProgram12AutowiringXML project, which illustrates the concept of autowiring in the Spring Framework using XML configuration. The project demonstrates how to achieve Dependency Injection (DI) through autowiring by name, type, and constructor.
 
@@ -33,7 +33,7 @@ This project is beneficial for developers looking to grasp the fundamentals of d
 
 
 
-* Project Developing Details
+* Project Developing Details  
 
 -> Using build path we add jar file using library that i created to put all jar file together.
 1. Create Bean class of name Address in package in.sp.beans
