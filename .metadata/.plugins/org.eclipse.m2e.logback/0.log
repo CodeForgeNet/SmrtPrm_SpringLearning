@@ -812,3 +812,7 @@ Caused by: java.net.UnknownHostException: cognito-identity.us-east-1.amazonaws.c
 	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage2.executeRequest(RetryableStage2.java:93)
 	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage2.execute(RetryableStage2.java:56)
 	... 36 common frames omitted
+2025-04-14 13:45:56,234 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/main/resources
+2025-04-14 13:45:56,239 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/test/resources
+2025-04-14 13:46:03,086 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/main/resources
+2025-04-14 13:46:03,088 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/test/resources
