@@ -108,13 +108,6 @@ http://localhost:8080/hello
 11. Add Some More
 - For the extra features of your application, you may use the additional controllers, services and repositories as necessary.
 
-### Conclusion
-You set up a basic Spring with maven application. You can add more features such as database integration, security or even start implementing restful services. Tell me if you have something specific in mind!
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d8857db (Update files)
 
 
 
