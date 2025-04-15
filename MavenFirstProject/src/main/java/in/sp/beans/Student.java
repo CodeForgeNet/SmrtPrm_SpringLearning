@@ -1,5 +1,5 @@
 package in.sp.beans;
-
+// (1)
 public class Student {
 	private String name;
 	private int rollno;
@@ -34,3 +34,4 @@ public class Student {
 	
 
 }
+//(/1)

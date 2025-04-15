@@ -117,11 +117,11 @@ You set up a basic Spring with maven application. You can add more features such
 >>>>>>> d8857db (Update files)
 
 
+
 ** Project Developing Details **
+- Create maven project (choose maven-archetype-webapp)
+1. Create Bean class in bean package
+2. Create applicationContext.xml file in  resources package.
+3. Add dependency to pom.xml (springContext)
 
 
-
-<<<<<<< HEAD
->>>>>>> d8857db (Update files)
-=======
->>>>>>> d8857db (Update files)
