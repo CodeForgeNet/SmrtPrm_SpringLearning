@@ -84,8 +84,4 @@ Here are the general steps to create a Spring JDBC project:
 9. **Test Your Application**
    - Use JUnit or any testing framework to test your DAO and service methods.
 
-### Additional Notes
-- Make sure to replace placeholders (like database URL, username, and password) with your actual database details.
-- Ensure you have the necessary database set up before running the project.
 
-Feel free to ask if you need more detailed instructions on any specific step!
