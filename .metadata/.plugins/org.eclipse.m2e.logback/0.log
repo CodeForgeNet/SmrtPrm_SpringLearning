@@ -822,3 +822,5 @@ Caused by: java.net.UnknownHostException: cognito-identity.us-east-1.amazonaws.c
 2025-04-14 13:49:55,832 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/test/resources
 2025-04-14 13:50:29,839 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/main/resources
 2025-04-14 13:50:29,842 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/test/resources
+2025-04-15 11:28:20,888 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/main/resources
+2025-04-15 11:28:20,891 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/YT_advJava/Spring_YT/MavenFirstProject/src/test/resources
