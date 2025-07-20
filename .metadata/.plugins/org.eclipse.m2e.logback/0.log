@@ -869,3 +869,4 @@ Caused by: java.net.UnknownHostException: cognito-identity.us-east-1.amazonaws.c
 2025-07-20 11:13:41,189 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringJDBCcrudOper/src/test/resources
 2025-07-20 11:13:42,279 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringJDBCcrudOper/src/main/resources
 2025-07-20 11:13:42,283 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringJDBCcrudOper/src/test/resources
+2025-07-20 12:09:12,387 [Worker-24: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
