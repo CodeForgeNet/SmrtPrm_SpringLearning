@@ -870,3 +870,10 @@ Caused by: java.net.UnknownHostException: cognito-identity.us-east-1.amazonaws.c
 2025-07-20 11:13:42,279 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringJDBCcrudOper/src/main/resources
 2025-07-20 11:13:42,283 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringJDBCcrudOper/src/test/resources
 2025-07-20 12:09:12,387 [Worker-24: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-07-20 12:53:53,539 [Worker-42: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.4.0/mysql-connector-java-8.4.0.pom
+2025-07-20 12:53:53,542 [Worker-42: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:8.4.0 is missing, no dependency information available
+2025-07-20 12:53:53,959 [Worker-42: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.4.0/mysql-connector-java-8.4.0.jar
+2025-07-20 12:53:53,977 [Worker-42: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:8.4.0 is missing, no dependency information available
+2025-07-20 12:59:17,164 [Worker-15: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-21 11:10:45,766 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-21 11:31:43,061 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

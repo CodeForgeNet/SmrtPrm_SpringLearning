@@ -16,7 +16,11 @@
 	<!-- <h1>Welcome</h1> -->
 	<h1>Welcome</h1>  
 	
-	<h3>Name : </h3>
+	<h3>Name : <%= user.getName() %> </h3>
+	<h3>Email : <%= user.getEmail() %> </h3>
+	<h3>City : <%= user.getCity() %> </h3>
+	
+	<a href="logout">Logout</a> <br/><br/>
 
 </body>
 </html>
