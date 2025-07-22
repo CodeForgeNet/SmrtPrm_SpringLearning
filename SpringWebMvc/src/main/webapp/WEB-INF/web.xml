@@ -9,9 +9,10 @@
   <display-name>Archetype Created Web Application</display-name>
   
   
+  <!-- Configure dispatcher servlet class -->
   <servlet>
   	<servlet-name>mydispserv</servlet-name>
-  	<servlet-class>DispatcherServlet</servlet-class>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> <!-- cmd+shift+t  then search for DispatcherServlet open that class and copy the fully qualified name -->
   </servlet>
   <servlet-mapping>
   	<servlet-name>mydispserv</servlet-name>

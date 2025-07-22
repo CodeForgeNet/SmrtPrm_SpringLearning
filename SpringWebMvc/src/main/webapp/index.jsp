@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h1>Spring web mvc</h1>
 </body>
 </html>
