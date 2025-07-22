@@ -8,7 +8,7 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
   <display-name>Archetype Created Web Application</display-name>
   
-  
+  <!-- we can configure front controller(dispatcher servlet) in web.xml or java class also, here we do in web.xml file -->
   <!-- Configure dispatcher servlet class -->
   <servlet>
   	<servlet-name>mydispserv</servlet-name>
