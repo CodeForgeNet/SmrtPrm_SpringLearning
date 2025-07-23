@@ -3753,3 +3753,102 @@ java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Pa
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-07-23 10:42:54.041
 !MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:07:55.043
+!MESSAGE [Info]	[fetchChat] Request 69ee544d-6553-4bbe-a6d1-bc855b649153 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2773.8557919999585ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:07:57.494
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:07:58.524
+!MESSAGE [Info]	[fetchChat] Request 2940bd66-8466-4cb3-995a-985acfaa8264 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1048.1547499997541ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:07:58.932
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-23 11:10:10.024
+!MESSAGE Unexpected null value present!
+!STACK 0
+java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:45)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.fullReconcile(SemanticHighlightReconcilerStrategy.java:239)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.initialReconcile(SemanticHighlightReconcilerStrategy.java:258)
+	at org.eclipse.ui.internal.genericeditor.CompositeReconcilerStrategy.initialReconcile(CompositeReconcilerStrategy.java:48)
+	at org.eclipse.jface.text.reconciler.Reconciler.initialProcess(Reconciler.java:223)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-07-23 11:12:28.275
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:25:02.631
+!MESSAGE [Info]	[fetchChat] Request 71d88978-26c9-4986-82a0-4b1c92fde6fe at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 3007.904624999501ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:25:04.279
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:25:04.879
+!MESSAGE [Info]	[fetchChat] Request 692a2a45-b741-44fc-ba00-c9a2f7ba4fdd at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 729.6532499995083ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:25:05.187
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:01.664
+!MESSAGE [Info]	[fetchCompletions] Request 98a724b5-4fbc-4341-9160-1ff837f1a616 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 959.0962920002639ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-23 11:26:01.664
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '98a724b5-4fbc-4341-9160-1ff837f1a616',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-23 11:26:01.708
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '98a724b5-4fbc-4341-9160-1ff837f1a616',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:01.708
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:33.051
+!MESSAGE [Info]	[fetchChat] Request c36a52f0-e54e-4632-b016-41c9594b2e8c at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1371.3476250004023ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:39.083
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:39.514
+!MESSAGE [Info]	[fetchChat] Request af93a708-fbf0-4cb8-bf02-057ce2d7ab71 at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 518.8587079998106ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:39.974
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:41.535
+!MESSAGE [Info]	[fetchChat] Request a2a79dd2-081f-4b44-8d80-394871e77513 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 890.4222919996828ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:43.554
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:44.208
+!MESSAGE [Info]	[fetchChat] Request 9eddba0f-ed10-454b-9af2-1ea66c83e983 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 824.0554170003161ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:26:44.284
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]

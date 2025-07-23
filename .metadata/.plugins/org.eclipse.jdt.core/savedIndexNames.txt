@@ -80,7 +80,6 @@ INDEX VERSION 1.134+/Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearn
 2507971076.index
 3576737304.index
 3312981948.index
-2740694798.index
 324711001.index
 3454972749.index
 934605492.index

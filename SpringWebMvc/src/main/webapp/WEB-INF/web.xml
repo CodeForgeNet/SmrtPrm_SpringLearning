@@ -11,11 +11,11 @@
   <!-- we can configure front controller(dispatcher servlet) in web.xml or java class also, here we do in web.xml file -->
   <!-- Configure dispatcher servlet class -->
   <servlet>
-  	<servlet-name>mydispserv</servlet-name>
+  	<servlet-name>myds</servlet-name>
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> <!-- cmd+shift+t  then search for DispatcherServlet open that class and copy the fully qualified name -->
   </servlet>
   <servlet-mapping>
-  	<servlet-name>mydispserv</servlet-name>
+  	<servlet-name>myds</servlet-name>
   	<url-pattern>/</url-pattern>
   </servlet-mapping>
   

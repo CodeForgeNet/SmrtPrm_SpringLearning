@@ -15,7 +15,7 @@ public class MyController {
 		System.out.println("openHelloPage() method executed");
 		
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("helloPage");
+		mav.setViewName("hello");
 		
 		return null;
 	}
