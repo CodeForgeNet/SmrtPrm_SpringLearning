@@ -7,3 +7,12 @@
 	=> HandlerMapping <interface>  
 	=> BeanNamUrlHandlerMapping  
 	=> RequestMappingHandlerMapping  etc...
+6. Create Controller ( create java class and annotate it with @Controller) in src/main/java folder.
+7. Create handler methods in the controller and return the ModelAndView object.
+8. Configure ViewResolver in spring Configuration file  
+    = ViewResolver <interface>  
+    = InternalResourceViewResolver (default)
+9. Create view page to be returned (/WEB-INF/views/----.jsp)
+10. Scan the package (in which controllers are created) in spring configuration file.  
+ 
+	=========================================================================================
