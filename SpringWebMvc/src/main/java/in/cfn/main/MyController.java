@@ -17,6 +17,10 @@ public class MyController {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("hello");
 		
-		return null;
+		return mav;
+	}
+	
+	public ModelAndView openAboutUsPage() {
+		
 	}
 }

@@ -9,7 +9,9 @@
 <body>
 
 	<h2>Welcome to CodeForgeNet</h2>
-	<a href="helloPage"> Open Hello Page </a>
+	<a href="helloPage"> Open Hello Page </a> <br/> <br/>
+	
+	<a href="aboutUs"> About Us </a>
 	
 </body>
 </html>
