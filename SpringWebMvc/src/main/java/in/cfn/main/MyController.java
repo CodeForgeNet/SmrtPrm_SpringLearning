@@ -21,6 +21,6 @@ public class MyController {
 	}
 	
 	public ModelAndView openAboutUsPage() {
-		
+		return "about-us";
 	}
 }

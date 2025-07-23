@@ -8604,3 +8604,39 @@ java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Pa
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-07-23 11:47:40.479
 !MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:23.938
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:23.938
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:23.972
+!MESSAGE [Info] Document is null for editor: web.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:23.972
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/webapp/WEB-INF/web.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.032
+!MESSAGE [Info] Document is null for editor: index.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.032
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/webapp/index.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.047
+!MESSAGE [Info] Document is null for editor: myds-servlet.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.047
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/webapp/WEB-INF/myds-servlet.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.062
+!MESSAGE [Info] Document is null for editor: hello.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.062
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/webapp/WEB-INF/views/hello.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.117
+!MESSAGE [Info] Document is null for editor: MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-23 15:45:24.117
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/java/in/cfn/main/MyController.java
