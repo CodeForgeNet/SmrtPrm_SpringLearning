@@ -21,7 +21,7 @@ public class MyController {
 	}
 	
 	@GetMapping("/aboutUs")
-	public ModelAndView openAboutUsPage() {
-		return "About-Us";
+	public String openAboutUsPage() {
+		return "about-us";
 	}
 }
