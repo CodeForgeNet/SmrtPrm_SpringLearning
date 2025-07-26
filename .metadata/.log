@@ -15588,3 +15588,27 @@ java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Pa
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-07-26 18:18:43.235
 !MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.830
+!MESSAGE [Info] Document is null for editor: index.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.831
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/webapp/index.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.852
+!MESSAGE [Info] Document is null for editor: my-form.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.852
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/webapp/WEB-INF/views/my-form.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.867
+!MESSAGE [Info] Document is null for editor: profile.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.868
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/webapp/WEB-INF/views/profile.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.898
+!MESSAGE [Info] Document is null for editor: MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-26 18:48:53.898
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/SpringWebMvc/src/main/java/in/cfn/main/MyController.java
