@@ -20,7 +20,8 @@ public class MyController {
 		return mav;
 	}
 	
+	@GetMapping("/aboutUs")
 	public ModelAndView openAboutUsPage() {
-		return "about-us";
+		return "About-Us";
 	}
 }
