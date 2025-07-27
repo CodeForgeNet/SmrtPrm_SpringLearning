@@ -10,9 +10,9 @@
 	<h2> My Form </h2>
 	
 	<form action="submitForm" method="post" >
-		Name : <input type="text" name="name1" > <br/> <br/>
-		Email Id : <input type="text" name="email1" > <br/> <br/>
-		Phone no. : <input type="text" name="phoneno1" > <br/> <br/>
+		Name : <input type="text" name="name" > <br/> <br/>
+		Email Id : <input type="text" name="email" > <br/> <br/>
+		Phone no. : <input type="text" name="phoneNo" > <br/> <br/>
 		
 		<input type="submit" value="Submit Form" > 
 	</form>

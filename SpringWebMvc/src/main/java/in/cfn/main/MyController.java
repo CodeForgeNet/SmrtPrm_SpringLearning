@@ -3,10 +3,12 @@ package in.cfn.main;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import in.cfn.beans.User;
 import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
@@ -73,17 +75,42 @@ public class MyController {
 //	}
 	
 	
-//	If lots of data is there.
+	// or
+	//	Using User class to hold the data and send it to profile page.
+//	@PostMapping("/submitForm")
+//	public String handleMyForm(@RequestParam("name1") String myName, @RequestParam("email1") String myEmail, @RequestParam("phoneno1") String myPhone, Model model) {
+//		
+//		System.out.println("Name : " + myName);
+//		System.out.println("Email : " + myEmail);
+//		System.out.println("Phone no : " + myPhone);
+//		
+//		// Creating a User object to hold the data.
+//		User user = new User();
+//		user.setName(myName);
+//		user.setEmail(myEmail);
+//		user.setPhoneNo(myPhone);
+//		
+//		model.addAttribute("model_user", user);
+//		
+//		return "profile";
+//	}
+	
+	
+	
+	
+	//	If lots of data is there.
+	
 	@PostMapping("/submitForm")
-	public String handleMyForm(@RequestParam("name1") String myName, @RequestParam("email1") String myEmail, @RequestParam("phoneno1") String myPhone, Model model) {
+	public String handleMyForm(@ModelAttribute User user) {
+	// The @ModelAttribute annotation automatically binds the form data to the User object.
 		
-		System.out.println("Name : " + myName);
-		System.out.println("Email : " + myEmail);
-		System.out.println("Phone no : " + myPhone);
+		System.out.println("Name : " + user.getName());
+		System.out.println("Email : " + user.getEmail());
+		System.out.println("Phone no : " + user.getPhoneNo());
 		
-		model.addAttribute("model_name", myName);
-		model.addAttribute("model_email", myEmail);
-		model.addAttribute("model_phoneno", myPhone);
+		// No need to add user object to model, as @ModelAttribute will do it automatically.
+		// If we use this method then we have to provide same name of getter-setter method that present in form jsp page.
+		
 		
 		return "profile";
 	}
