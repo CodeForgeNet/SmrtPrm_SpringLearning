@@ -31,6 +31,8 @@ public class User {
 	@Column
 	private String city;
 	
+	public User() {}
+	
 	
 	public User(String name, String email, String password, String gender, String city) {
 		super();
