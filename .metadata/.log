@@ -24679,3 +24679,61 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 09:54:51.241
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/HibernateCrudOperations/src/main/java/in/cfn/main/App.java
+!SESSION 2025-07-31 10:28:40.762 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 10:28:42.526
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 10:28:53.037
+!MESSAGE Logback config file: /Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:28:57.124
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:28:57.407
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-31 10:28:58.214
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:28:58.689
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.339.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:28:58.893
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-31 10:29:08.555
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-31 10:29:08.556
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-31 10:29:08.556
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-31 10:29:08.556
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-31 10:29:08.558
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-31 10:29:08.559
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:29:29.633
+!MESSAGE [Info] Document is null for editor: App.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:29:29.633
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/HibernateCrudOperations/src/main/java/in/cfn/main/App.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:29:29.653
+!MESSAGE [Info] Document is null for editor: hibernate.cfg.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:29:29.654
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Study_Material/SmrtPrm_SpringLearning/HibernateCrudOperations/src/main/java/in/cfn/config/hibernate.cfg.xml
